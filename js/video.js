@@ -72,6 +72,6 @@ document.querySelector("#orig").addEventListener("click", function() {
 });
 
 function updateVolumeInfo() {
-    var volumeInfo = document.getElementById("volume");
+    var volumeInfo = document.querySelector("#volume");
     volumeInfo.textContent = Math.round(video.volume * 100) + "%";
 }
